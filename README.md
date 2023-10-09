@@ -21,7 +21,11 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 Git commands
+
 git config --global user.name
+
 git config --global user.email
+
 git commit -m "this first commit"
+
 git push origin main
