@@ -10,18 +10,21 @@
 
 4.[GitCLI](https://git-scm.com/book/en/v2/Getting-started-The-Command-Line)
 
+---
 Create a new environment
 ---
 conda create -p venv python==3.9 -y
 python -m venv venv
----
+
 conda activate venv/
 venv\Scripts\activate
 
 pip install -r requirements.txt
 
+---
 Git commands
 
+---
 git config --global user.name
 
 git config --global user.email
